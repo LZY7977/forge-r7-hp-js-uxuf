@@ -3,6 +3,7 @@ registries:
   probe-npm:
     type: npm-registry
     url: http://pen-lafp-4683-1117.dns.collabp-reg1.devops.aws.dev/
+    token: ${{secrets.FORGE_R4_PROBE_TOKEN}}
 updates:
   - package-ecosystem: "npm"
     directory: "/"
