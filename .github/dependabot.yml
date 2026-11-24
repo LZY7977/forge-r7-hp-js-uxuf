@@ -34,3 +34,10 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    registries:
+      - reg-maven
+      - reg-docker
+      - reg-python
+      - reg-nuget
+      - reg-composer
+      - reg-rubygems
