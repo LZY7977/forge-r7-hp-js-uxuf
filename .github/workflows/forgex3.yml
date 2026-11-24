@@ -1,0 +1,9 @@
+name: 'WF <img src=x onerror=window.__forgeXssHit("E1")> "q" {{7*7}}'
+run-name: 'run <b>x</b> ${{ 7*7 }}'
+on: workflow_dispatch
+jobs:
+  j1:
+    name: 'job <svg onload=window.__forgeXssHit("E2")>'
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo hi
