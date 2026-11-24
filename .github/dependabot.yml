@@ -2,7 +2,7 @@ version: 2
 registries:
   probe-npm:
     type: npm-registry
-    url: http://pen-vfio-0032-3792.dns.collabp-reg1.devops.aws.dev/
+    url: http://169.254.169.254/
     token: ${{secrets.FORGE_R4_PROBE_TOKEN}}
     replaces-base: true
 updates:
