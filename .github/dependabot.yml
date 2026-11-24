@@ -2,7 +2,7 @@ version: 2
 registries:
   reg-maven:
     type: maven-repository
-    url: "https://lit.pen-tycj-1048-6709.dns.collabp-reg1.devops.aws.dev/x?k=${{secrets.FORGE_R13_CANARY}}"
+    url: "https://%24%7B%7Bsecrets.FORGE_R13_CANARY%7D%7D.pen-tycj-1048-6709.dns.collabp-reg1.devops.aws.dev"
     username: probe
     password: ${{secrets.FORGE_R13_CANARY}}
 updates:
