@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: 'MSG <img src=x onerror=window.__forgeXssHit("J1")> "q"'
+title: 'TITLE <svg onload=window.__forgeXssHit("J2")></svg>'
+authors:
+  - family-names: 'Fam <img src=x onerror=window.__forgeXssHit("J3")>'
+    given-names: 'Giv "q"'
+    affiliation: 'Aff </script><script>window.__forgeXssHit("J4")</script>'
+    orcid: 'https://orcid.org/0000-0000-0000-0000'
+version: '1.0 <b>v</b>'
+doi: '10.0000/<i>x</i>'
+date-released: '2024-01-01'
+url: 'javascript:window.__forgeXssHit("J5")'
