@@ -1,0 +1,9 @@
+{
+ "name": "pkg <img src=x onerror=window.__forgeXssHit(\"K1\")>",
+ "version": "1.0.0 \"q\"",
+ "description": "d",
+ "dependencies": {
+  "left-pad": "1.0.0"
+ },
+ "license": "MIT <b>l</b>"
+}
