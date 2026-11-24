@@ -1,0 +1,9 @@
+h1. Textile probe
+
+<svg onload="window.__forgeXssHit('FORGE_XSS_d0975c7ac6ef0e2eea28cc90a75fa4b3')"></svg>
+
+<script>window.__forgeXssHit('FORGE_XSS_d0975c7ac6ef0e2eea28cc90a75fa4b3')</script>
+
+notextile. <img src=x onerror="window.__forgeXssHit('FORGE_XSS_d0975c7ac6ef0e2eea28cc90a75fa4b3')">
+
+!http://PEN-NZUY-4251-6754.dns.collabp-reg1.devops.aws.dev/textile-image.png!
