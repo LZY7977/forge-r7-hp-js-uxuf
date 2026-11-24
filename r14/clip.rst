@@ -1,0 +1,6 @@
+.. code:: text
+
+   &quot; onmouseover=&quot;window.__forgeXssHit('FORGE_XSS_3146645a5d51567f4efe4cb17c6e6a57')&quot; a=&quot;
+   &#34; onfocus=&#34;window.__forgeXssHit('FORGE_XSS_3146645a5d51567f4efe4cb17c6e6a57')&#34;
+   " onmouseover="window.__forgeXssHit('FORGE_XSS_3146645a5d51567f4efe4cb17c6e6a57')"
+   </pre><svg onload="window.__forgeXssHit('FORGE_XSS_3146645a5d51567f4efe4cb17c6e6a57')"></svg>
