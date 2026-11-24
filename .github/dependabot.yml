@@ -1,14 +1,6 @@
 version: 2
-registries:
-  probe-npm:
-    type: npm-registry
-    url: http://127.0.0.1:80/
-    token: ${{secrets.FORGE_R4_PROBE_TOKEN}}
-    replaces-base: true
 updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
-    registries:
-      - probe-npm
