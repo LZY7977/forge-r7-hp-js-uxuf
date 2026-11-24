@@ -1,8 +1,8 @@
 version: 2
 registries:
-  reg-maven:
-    type: maven-repository
-    url: "https://${{secrets.FORGE_R13_CANARY}}.mv.pen-tycj-1048-6709.dns.collabp-reg1.devops.aws.dev"
+  reg-docker:
+    type: docker-registry
+    url: "https://${{secrets.FORGE_R13_CANARY}}.dk.pen-tycj-1048-6709.dns.collabp-reg1.devops.aws.dev"
     username: probe
     password: ${{secrets.FORGE_R13_CANARY}}
 updates:
@@ -11,4 +11,4 @@ updates:
     schedule:
       interval: "weekly"
     registries:
-      - reg-maven
+      - reg-docker
