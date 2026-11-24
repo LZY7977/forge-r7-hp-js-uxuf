@@ -1,0 +1,19 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "<img src=x onerror=\"window.__forgeXssHit('FORGE_XSS_3ab3e1382c9b12cecefcebf574d030f9')\">",
+    "desc": "<svg onload=\"window.__forgeXssHit('FORGE_XSS_3ab3e1382c9b12cecefcebf574d030f9')\"></svg>"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -122.4,
+     37.8
+    ]
+   }
+  }
+ ]
+}
