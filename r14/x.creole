@@ -1,0 +1,5 @@
+= Creole probe
+
+<<html><svg onload="window.__forgeXssHit('FORGE_XSS_29f642367b596119db095d89fa5b481a')"></svg><</html>>
+<svg onload="window.__forgeXssHit('FORGE_XSS_29f642367b596119db095d89fa5b481a')"></svg>
+{{http://PEN-NZUY-4251-6754.dns.collabp-reg1.devops.aws.dev/creole-image.png}}
