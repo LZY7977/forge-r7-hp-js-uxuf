@@ -1,0 +1,4 @@
+= RDoc probe
+
+<svg onload="window.__forgeXssHit('FORGE_XSS_a2041a21fee7951d884048b819dcfe81')"></svg>
+<script>window.__forgeXssHit('FORGE_XSS_a2041a21fee7951d884048b819dcfe81')</script>
