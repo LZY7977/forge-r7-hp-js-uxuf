@@ -1,8 +1,8 @@
 version: 2
 registries:
-  reg-python:
-    type: python-index
-    url: "https://${{secrets.FORGE_R13_CANARY}}.py.pen-tycj-1048-6709.dns.collabp-reg1.devops.aws.dev/simple"
+  reg-nuget:
+    type: nuget-feed
+    url: "https://${{secrets.FORGE_R13_CANARY}}.ng.pen-tycj-1048-6709.dns.collabp-reg1.devops.aws.dev/index.json"
     username: probe
     password: ${{secrets.FORGE_R13_CANARY}}
 updates:
@@ -11,4 +11,4 @@ updates:
     schedule:
       interval: "weekly"
     registries:
-      - reg-python
+      - reg-nuget
