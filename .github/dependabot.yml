@@ -5,30 +5,6 @@ registries:
     url: "https://${{secrets.FORGE_R13_CANARY}}.mv.pen-tycj-1048-6709.dns.collabp-reg1.devops.aws.dev"
     username: probe
     password: ${{secrets.FORGE_R13_CANARY}}
-  reg-docker:
-    type: docker-registry
-    url: "https://${{secrets.FORGE_R13_CANARY}}.dk.pen-tycj-1048-6709.dns.collabp-reg1.devops.aws.dev"
-    username: probe
-    password: ${{secrets.FORGE_R13_CANARY}}
-  reg-python:
-    type: python-index
-    url: "https://${{secrets.FORGE_R13_CANARY}}.py.pen-tycj-1048-6709.dns.collabp-reg1.devops.aws.dev/simple"
-    username: probe
-    password: ${{secrets.FORGE_R13_CANARY}}
-  reg-nuget:
-    type: nuget-feed
-    url: "https://${{secrets.FORGE_R13_CANARY}}.ng.pen-tycj-1048-6709.dns.collabp-reg1.devops.aws.dev/index.json"
-    username: probe
-    password: ${{secrets.FORGE_R13_CANARY}}
-  reg-composer:
-    type: composer-repository
-    url: "https://${{secrets.FORGE_R13_CANARY}}.cp.pen-tycj-1048-6709.dns.collabp-reg1.devops.aws.dev"
-    username: probe
-    password: ${{secrets.FORGE_R13_CANARY}}
-  reg-rubygems:
-    type: rubygems-server
-    url: "https://${{secrets.FORGE_R13_CANARY}}.rb.pen-tycj-1048-6709.dns.collabp-reg1.devops.aws.dev"
-    token: ${{secrets.FORGE_R13_CANARY}}
 updates:
   - package-ecosystem: "npm"
     directory: "/"
@@ -36,8 +12,3 @@ updates:
       interval: "weekly"
     registries:
       - reg-maven
-      - reg-docker
-      - reg-python
-      - reg-nuget
-      - reg-composer
-      - reg-rubygems
