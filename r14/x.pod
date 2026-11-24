@@ -1,0 +1,14 @@
+=pod
+
+=head1 POD probe
+
+Z<><svg onload="window.__forgeXssHit('FORGE_XSS_57973c3033844bf89cfcdb1746370854')"></svg>
+
+=begin html
+
+<script>window.__forgeXssHit('FORGE_XSS_57973c3033844bf89cfcdb1746370854')</script>
+<img src=x onerror="window.__forgeXssHit('FORGE_XSS_57973c3033844bf89cfcdb1746370854')">
+
+=end html
+
+=cut
