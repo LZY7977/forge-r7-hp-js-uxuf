@@ -1,14 +1,6 @@
 version: 2
-registries:
-  probe-npm:
-    type: npm-registry
-    url: https://github.com/
-    token: ${{secrets.FORGE_R4_PROBE_TOKEN}}
-    replaces-base: true
 updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
-    registries:
-      - probe-npm
