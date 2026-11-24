@@ -2,12 +2,11 @@ version: 2
 registries:
   probe-npm:
     type: npm-registry
-    url: http://pen-umdu-4652-7767.dns.collabp-reg1.devops.aws.dev/
-    token: dummytoken
+    url: http://pen-lafp-4683-1117.dns.collabp-reg1.devops.aws.dev/
 updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
     registries:
       - probe-npm
