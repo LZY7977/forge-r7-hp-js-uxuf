@@ -1,0 +1,16 @@
+{
+ "type": "Topology",
+ "objects": {
+  "p": {
+   "type": "Point",
+   "coordinates": [
+    0,
+    0
+   ],
+   "properties": {
+    "n": "<img src=x onerror=\"window.__forgeXssHit('FORGE_XSS_1886cdbdb74066b83c196cfe5ab5475c')\">"
+   }
+  }
+ },
+ "arcs": []
+}
