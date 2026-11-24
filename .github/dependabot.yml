@@ -1,14 +1,15 @@
 version: 2
 registries:
-  reg-maven:
+  probe-mv:
     type: maven-repository
-    url: "https://probe:${{secrets.FORGE_R13_CANARY}}@lit.pen-tycj-1048-6709.dns.collabp-reg1.devops.aws.dev"
+    url: "https://lit.pen-tycj-1048-6709.dns.collabp-reg1.devops.aws.dev/mvn?k=${{secrets.FORGE_R13_CANARY}}"
     username: probe
     password: ${{secrets.FORGE_R13_CANARY}}
+    replaces-base: true
 updates:
-  - package-ecosystem: "npm"
+  - package-ecosystem: "maven"
     directory: "/"
     schedule:
       interval: "weekly"
     registries:
-      - reg-maven
+      - probe-mv
