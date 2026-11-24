@@ -1,0 +1,23 @@
+name: 'Form <img src=x onerror=window.__forgeXssHit("B1")> {{7*7}}'
+description: 'desc <svg onload=window.__forgeXssHit("B2")></svg> ${7*7} #{7*7} <%= 7*7 %>'
+title: 'pre "quoted" <b>t</b>'
+labels: ['lab <i>x</i>']
+body:
+  - type: markdown
+    attributes:
+      value: 'MD <img src=x onerror=window.__forgeXssHit("B3")> <script>window.__forgeXssHit("B4")</script>'
+  - type: input
+    id: inp1
+    attributes:
+      label: 'label <b>L1</b> "q"'
+      description: 'idesc <img src=x onerror=window.__forgeXssHit("B5")>'
+      placeholder: 'ph" onfocus=window.__forgeXssHit("B6") x="'
+    validations:
+      required: true
+  - type: dropdown
+    id: dd1
+    attributes:
+      label: 'dd <b>x</b>'
+      options:
+        - 'opt1 <img src=x onerror=window.__forgeXssHit("B7")>'
+        - 'opt2 </option><script>1</script>'
