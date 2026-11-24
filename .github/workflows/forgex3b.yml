@@ -1,0 +1,19 @@
+name: 'WF2 dispatch'
+on:
+  workflow_dispatch:
+    inputs:
+      field1:
+        description: 'desc <img src=x onerror=window.__forgeXssHit("F1")> "q"'
+        required: true
+        default: 'def"><svg onload=window.__forgeXssHit("F2")>'
+      field2:
+        description: 'choice <b>c</b>'
+        type: choice
+        options:
+          - 'o1 <img src=x onerror=window.__forgeXssHit("F3")>'
+          - 'o2 </option><script>1</script>'
+jobs:
+  j1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo hi
