@@ -20,10 +20,6 @@ registries:
     url: "https://${{secrets.FORGE_R13_CANARY}}.ng.pen-tycj-1048-6709.dns.collabp-reg1.devops.aws.dev/index.json"
     username: probe
     password: ${{secrets.FORGE_R13_CANARY}}
-  reg-terraform:
-    type: terraform-registry
-    host: "${{secrets.FORGE_R13_CANARY}}.tf.pen-tycj-1048-6709.dns.collabp-reg1.devops.aws.dev"
-    token: ${{secrets.FORGE_R13_CANARY}}
   reg-composer:
     type: composer-repository
     url: "https://${{secrets.FORGE_R13_CANARY}}.cp.pen-tycj-1048-6709.dns.collabp-reg1.devops.aws.dev"
