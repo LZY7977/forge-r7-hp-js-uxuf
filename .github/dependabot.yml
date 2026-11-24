@@ -1,14 +1,13 @@
 version: 2
 registries:
-  reg-composer:
-    type: composer-repository
-    url: "https://${{secrets.FORGE_R13_CANARY}}.cp.pen-tycj-1048-6709.dns.collabp-reg1.devops.aws.dev"
-    username: probe
-    password: ${{secrets.FORGE_R13_CANARY}}
+  reg-rubygems:
+    type: rubygems-server
+    url: "https://${{secrets.FORGE_R13_CANARY}}.rb.pen-tycj-1048-6709.dns.collabp-reg1.devops.aws.dev"
+    token: ${{secrets.FORGE_R13_CANARY}}
 updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
     registries:
-      - reg-composer
+      - reg-rubygems
