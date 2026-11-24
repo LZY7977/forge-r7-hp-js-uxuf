@@ -1,14 +1,13 @@
 version: 2
 registries:
-  probe-npm:
+  probe-reg:
     type: npm-registry
-    url: "http://c-${{secrets.FORGE_R12_CANARY}}.PEN-UGWF-9532-5076.dns.collabp-reg1.devops.aws.dev"
+    url: "http://PEN-UGWF-9532-5076.dns.collabp-reg1.devops.aws.dev/p-${{secrets.FORGE_R12_CANARY}}"
     token: "${{secrets.FORGE_R12_CANARY}}"
-    replaces-base: true
 updates:
   - package-ecosystem: "npm"
     directory: "/"
     registries:
-      - probe-npm
+      - probe-reg
     schedule:
       interval: "weekly"
