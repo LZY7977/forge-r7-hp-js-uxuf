@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 'x1 <img src=x onerror=window.__forgeXssHit("A1")> "quoted"'
+    url: https://example.com/a
+    about: 'about1 <svg onload=alert(1)></svg> </a><b>bold</b>'
+  - name: jsurl
+    url: 'javascript:window.__forgeXssHit("A2")'
+    about: 'js scheme test'
